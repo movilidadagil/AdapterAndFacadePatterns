@@ -1,0 +1,20 @@
+Facade pattern  diğer örüntülere benzemeksizin oldukça düzdür, düşünmek
+zorunda kalacağınız abstraction lar olmaz. Fakat abstractionların olmayışı
+bu patternı diğerlerinden daha az güçlü yapmaz. Facade pattern client ve subsystem
+ler arasında tight coupling den kaçınmamızı sağlar.
+Facade pattern bir altsistemde bir dizi interface e birleştirilmiş bir interface sağlar.
+Yani daha üst seviye bir interface sağlayarak alt sistemlerin bunu kullanmasnı kolaylaştırır.
+Bu facade pattern ı kullanmaya karar verdiğinizde hatırlamanız gereken en önemli konu  birbirine
+sıkı bağlı bir yerde değişiklik yaptığınızda diğer yerlerde de bir çok değişiklik gerektiren sınıflar
+dan uzak durmamızı sağlamasıdır. Bir çok sınıf arasında birçok bağımlılık bulunan bir sistem yazacaksanız
+demek oluyor ki kırılgan bir sistem yazacaksınız ve maliyeti fazla anlaşılması zor bir sistem inşa ediyorsunuz
+demektir.
+
+
+OO principles hatırlayalım
+Ne değişiyorsa encapsule edelim
+inheritance yerine compositon ı kullanalım
+interface e program yazalım, implementasyonlara değil
+loosely coupled tasarımı için uğraş
+sınıflar modifikasyona kapalı, extension a açık olmalı.
+abstraction lara bağımlı ol, concrete class lara değil.
